@@ -2,6 +2,7 @@
 
 set -xe
 
+yarn lint
 git pull -r
 yarn test
 git push
