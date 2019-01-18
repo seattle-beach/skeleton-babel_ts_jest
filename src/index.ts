@@ -1,4 +1,3 @@
 import {foo} from "./thing";
 
-
-foo('hello');
+foo("hello");
