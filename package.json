@@ -1,16 +1,20 @@
 {
   "name": "@trumans/auto-dep",
   "version": "0.0.2",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "repository": "https://gitlab.com/trumans/auto-dep",
   "author": "trumans@pivotal.io",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src/index.js"
+    "start": "babel-node --extensions \".ts\" src/index.ts "
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.2.3"
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
+    "typescript": "^3.2.4"
   }
 }
