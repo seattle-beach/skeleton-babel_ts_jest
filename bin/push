@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -xe
+
+git pull -r
+git push
