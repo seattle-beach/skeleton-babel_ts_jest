@@ -3,4 +3,5 @@
 set -xe
 
 git pull -r
+yarn test
 git push
