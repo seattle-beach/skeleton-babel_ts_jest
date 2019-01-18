@@ -1,0 +1,8 @@
+{
+  "name": "auto-dep",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://gitlab.com/trumans/auto-dep",
+  "author": "trumans@pivotal.io",
+  "license": "MIT"
+}
